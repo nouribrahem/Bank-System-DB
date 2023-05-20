@@ -1,0 +1,11 @@
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe.config
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.pdb
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.AssemblyReference.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Form1.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Properties.Resources.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.GenerateResource.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
