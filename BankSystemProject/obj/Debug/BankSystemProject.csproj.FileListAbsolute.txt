@@ -9,3 +9,4 @@ C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSyste
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.customer_loans.resources
