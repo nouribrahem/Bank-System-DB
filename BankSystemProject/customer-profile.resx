@@ -1706,13 +1706,10 @@
         waVnFy5cuHDhIurg0rMLFy5cuHARdXDp2YULFy5cuIgyGMb/Dzf4E9BWKzdqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABWJJREFUaEPt2seLJVUUx/ExR8w5Z8wJ/wTFAEbcmEAQw8q4cCGoICKGjQHFja5E
+        EAAACxABrSO9dQAABWJJREFUaEPt2seLJVUUx/ExR8w5Z8wJ/wTFAEbcmEAQw8q4cCGoICKGjQHFja5E
         0Y05IaIg5rwwB4wohoVgjr9PMQea7lf1qqpfD4PMD75MV71zboV777nnnpplq/Q/1ibhuHBdeCi8G74L
         vy7H3++EBwObY8PGYaXQOuG08Hj4K/w7ED6PhVODtla41g0Xh69C3dRv4ZlwRTgx7Bc2D2zh7/3DSYHN
         s+H3UP5fhgsD2xWio8NHoW7gtXBu2DQMFR++r4dq78NwZFgyeVO3hrqgix8VZqHVghf0Zqj2bw4zH25b
