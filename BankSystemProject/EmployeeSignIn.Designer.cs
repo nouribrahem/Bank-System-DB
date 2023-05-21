@@ -51,7 +51,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(27, 570);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(319, 41);
+            this.label2.Size = new System.Drawing.Size(308, 39);
             this.label2.TabIndex = 28;
             this.label2.Text = "Doesn\'t have an Account Yet?";
             // 
@@ -71,7 +71,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(96, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 52);
+            this.label1.Size = new System.Drawing.Size(127, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign Up";
             // 
@@ -91,7 +91,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(96, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 52);
+            this.label7.Size = new System.Drawing.Size(115, 51);
             this.label7.TabIndex = 0;
             this.label7.Text = "Sign In";
             // 
@@ -102,7 +102,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(26, 341);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 41);
+            this.label5.Size = new System.Drawing.Size(123, 39);
             this.label5.TabIndex = 27;
             this.label5.Text = "Password :";
             // 
@@ -113,7 +113,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(26, 249);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 41);
+            this.label4.Size = new System.Drawing.Size(54, 39);
             this.label4.TabIndex = 26;
             this.label4.Text = "ID :";
             // 
@@ -158,7 +158,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "SignIn";
-            this.Text = "Form3";
+            this.Text = "EmployeeSignIn";
             this.Load += new System.EventHandler(this.SignIn_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
