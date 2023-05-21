@@ -241,7 +241,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Green;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.panel2.Controls.Add(this.label6);
             this.panel2.Location = new System.Drawing.Point(6, 218);
             this.panel2.Name = "panel2";

@@ -52,8 +52,17 @@
     <Compile Include="customer-profile.Designer.cs">
       <DependentUpon>customer-profile.cs</DependentUpon>
     </Compile>
+    <Compile Include="customer-loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer-loan.Designer.cs">
+      <DependentUpon>customer-loan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="customer-loan.resx">
+      <DependentUpon>customer-loan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="customer-profile.resx">
       <DependentUpon>customer-profile.cs</DependentUpon>
     </EmbeddedResource>
