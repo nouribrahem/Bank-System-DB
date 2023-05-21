@@ -1,6 +1,6 @@
 ﻿namespace BankSystemProject
 {
-    partial class Form3
+    partial class RequastLoan
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RequastLoan));
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -228,7 +228,7 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Profile";
             // 
-            // Form3
+            // RequastLoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -243,7 +243,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
-            this.Name = "Form3";
+            this.Name = "RequastLoan";
             this.Text = "Form3";
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();

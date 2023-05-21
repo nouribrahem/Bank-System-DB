@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BankSystemProject
 {
-    public partial class RequastLoan : Form
+    public partial class Form4 : Form
     {
-        public RequastLoan()
+        public Form4()
         {
             InitializeComponent();
         }

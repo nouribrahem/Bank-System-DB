@@ -64,6 +64,12 @@
     <Compile Include="EmployeeSignIn.Designer.cs">
       <DependentUpon>EmployeeSignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="RequastALoan.cs">
       <SubType>Form</SubType>
     </Compile>

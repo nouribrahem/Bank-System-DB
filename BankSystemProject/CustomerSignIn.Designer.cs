@@ -38,7 +38,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.Customersignin_signin = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -47,7 +49,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(33, 293);
+            this.textBox1.Location = new System.Drawing.Point(34, 236);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(417, 37);
             this.textBox1.TabIndex = 13;
@@ -55,7 +57,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(33, 385);
+            this.textBox2.Location = new System.Drawing.Point(34, 328);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(417, 37);
             this.textBox2.TabIndex = 14;
@@ -75,7 +77,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(26, 249);
+            this.label4.Location = new System.Drawing.Point(27, 192);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 39);
             this.label4.TabIndex = 18;
@@ -86,11 +88,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(26, 341);
+            this.label5.Location = new System.Drawing.Point(27, 284);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 39);
+            this.label5.Size = new System.Drawing.Size(199, 39);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Password :";
+            this.label5.Text = "Account Number :";
             // 
             // label2
             // 
@@ -126,22 +128,41 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.Customersignin_signin);
             this.panel3.Location = new System.Drawing.Point(88, 478);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(317, 71);
             this.panel3.TabIndex = 22;
             // 
-            // label7
+            // Customersignin_signin
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Uighur", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(101, 10);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 51);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Sign In";
+            this.Customersignin_signin.AutoSize = true;
+            this.Customersignin_signin.Font = new System.Drawing.Font("Microsoft Uighur", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Customersignin_signin.ForeColor = System.Drawing.Color.White;
+            this.Customersignin_signin.Location = new System.Drawing.Point(101, 10);
+            this.Customersignin_signin.Name = "Customersignin_signin";
+            this.Customersignin_signin.Size = new System.Drawing.Size(115, 51);
+            this.Customersignin_signin.TabIndex = 1;
+            this.Customersignin_signin.Text = "Sign In";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(27, 377);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(123, 39);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Password :";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(34, 421);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(417, 37);
+            this.textBox3.TabIndex = 23;
             // 
             // CustomerSignIn
             // 
@@ -149,6 +170,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(486, 737);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
@@ -179,7 +202,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Customersignin_signin;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
