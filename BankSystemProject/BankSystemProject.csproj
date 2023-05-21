@@ -64,6 +64,43 @@
     <Compile Include="EmployeeSignIn.Designer.cs">
       <DependentUpon>EmployeeSignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\customer-loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\customer-loan.Designer.cs">
+      <DependentUpon>customer-loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\customer-profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\customer-profile.Designer.cs">
+      <DependentUpon>customer-profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\CustomerSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\CustomerSignIn.Designer.cs">
+      <DependentUpon>CustomerSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\EmployeeSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\EmployeeSignIn.Designer.cs">
+      <DependentUpon>EmployeeSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Program.cs" />
+    <Compile Include="Properties\RequastALoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\RequastALoan.Designer.cs">
+      <DependentUpon>RequastALoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="RequastALoan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +133,24 @@
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\customer-loan.resx">
+      <DependentUpon>customer-loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\customer-profile.resx">
+      <DependentUpon>customer-profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\CustomerSignIn.resx">
+      <DependentUpon>CustomerSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\EmployeeSignIn.resx">
+      <DependentUpon>EmployeeSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\RequastALoan.resx">
+      <DependentUpon>RequastALoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -111,6 +166,7 @@
     <EmbeddedResource Include="RequastALoan.resx">
       <DependentUpon>RequastALoan.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
