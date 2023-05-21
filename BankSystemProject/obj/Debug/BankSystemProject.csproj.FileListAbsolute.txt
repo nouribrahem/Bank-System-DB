@@ -22,3 +22,6 @@ C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debu
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Form2.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources

@@ -58,6 +58,24 @@
     <Compile Include="customer-loan.Designer.cs">
       <DependentUpon>customer-loan.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSignIn.Designer.cs">
+      <DependentUpon>EmployeeSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerSignIn.Designer.cs">
+      <DependentUpon>CustomerSignIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="customer-loan.resx">
@@ -65,6 +83,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="customer-profile.resx">
       <DependentUpon>customer-profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSignIn.resx">
+      <DependentUpon>EmployeeSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CustomerSignIn.resx">
+      <DependentUpon>CustomerSignIn.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
