@@ -3,6 +3,7 @@ C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BankSyste
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.pdb
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.AssemblyReference.cache
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Form1.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Properties.Resources.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.GenerateResource.cache
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
@@ -23,46 +24,35 @@ C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debu
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Form2.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.Streams.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Hash.xxHash.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\MySql.Data.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Buffers.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.IO.Pipelines.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Memory.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\BouncyCastle.Crypto.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.pdb
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.Streams.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Hash.xxHash.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\MySql.Data.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Buffers.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.IO.Pipelines.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Memory.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AddBankPage.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminAddBankBranch.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminListAllLoans.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminProfile.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminSignIn.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerLoanPage.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerProfile.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignUP.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeAddCustomer.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListCustomers.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListLoans.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeProfile.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeSignUP.resources
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CopyComplete
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe.config
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.pdb
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.AssemblyReference.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AddBankPage.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminAddBankBranch.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminListAllLoans.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminSignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerLoanPage.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignUP.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeAddCustomer.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListCustomers.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListLoans.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeSignUP.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Properties.Resources.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.GenerateResource.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb

@@ -16,5 +16,10 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
+
+        private void EmployeeListCustomers_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
