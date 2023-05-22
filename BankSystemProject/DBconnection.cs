@@ -18,7 +18,7 @@ namespace BankSystemProject
         {
             
         }
-        public void QueryMYSQL(string query)
+        public void Query(string query)
         {
             try
             {
@@ -38,7 +38,7 @@ namespace BankSystemProject
         }
         //////////////////
 
-        public void QueryM(string query)
+        public void Query(string query)
         {
             try
             {
