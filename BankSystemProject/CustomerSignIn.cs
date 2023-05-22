@@ -26,8 +26,9 @@ namespace BankSystemProject
         {
             DBconnection conn = new DBconnection();
             string q = "select * from customer,hold_by,account where hold_by.ssn =" +textBox1.Text +" AND account.acc_number ="+textBox2.Text+" AND account.acc_pass ="+textBox3.Text;
-            conn.QueryMYSQL(q);
+            conn.Query(q);
             CustomerProfile p = new CustomerProfile();
+
 
 
         }

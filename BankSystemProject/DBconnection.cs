@@ -38,23 +38,23 @@ namespace BankSystemProject
         }
         //////////////////
 
-        public void Query(string query)
-        {
-            try
-            {
-                SqlConnection con = new SqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = con;
-                con.Open();
-                cmd.CommandText = query;
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+        //public void Query(string query)
+        //{
+        //    try
+        //    {
+        //        SqlConnection con = new SqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
+        //        SqlCommand cmd = new SqlCommand();
+        //        cmd.Connection = con;
+        //        con.Open();
+        //        cmd.CommandText = query;
+        //        cmd.ExecuteNonQuery();
+        //        con.Close();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
 
-        }
+        //}
     }
 }
