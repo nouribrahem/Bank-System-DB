@@ -29,3 +29,30 @@ C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSyste
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe.config
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.pdb
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.AssemblyReference.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AddBankPage.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminAddBankBranch.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminListAllLoans.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminSignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerLoanPage.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignUP.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeAddCustomer.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListCustomers.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListLoans.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeProfile.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeSignUP.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Properties.Resources.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.GenerateResource.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
