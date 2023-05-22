@@ -56,3 +56,17 @@ C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProjec
 C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
 C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
 C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AddBankPage.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminAddBankBranch.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminListAllLoans.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminProfile.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.AdminSignIn.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerLoanPage.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerProfile.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignUP.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeAddCustomer.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListCustomers.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeListLoans.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeProfile.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeSignUP.resources
+C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
