@@ -35,7 +35,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.RequestLoanFinish = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -107,22 +107,22 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.panel5.Controls.Add(this.label4);
+            this.panel5.Controls.Add(this.RequestLoanFinish);
             this.panel5.Location = new System.Drawing.Point(632, 538);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(265, 62);
             this.panel5.TabIndex = 26;
             // 
-            // label4
+            // RequestLoanFinish
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(72, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 56);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Requst";
+            this.RequestLoanFinish.AutoSize = true;
+            this.RequestLoanFinish.Font = new System.Drawing.Font("Microsoft Uighur", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RequestLoanFinish.ForeColor = System.Drawing.Color.White;
+            this.RequestLoanFinish.Location = new System.Drawing.Point(72, 6);
+            this.RequestLoanFinish.Name = "RequestLoanFinish";
+            this.RequestLoanFinish.Size = new System.Drawing.Size(136, 56);
+            this.RequestLoanFinish.TabIndex = 0;
+            this.RequestLoanFinish.Text = "Request";
             // 
             // label3
             // 
@@ -244,7 +244,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
             this.Name = "RequastLoan";
-            this.Text = "Form3";
+            this.Text = "Requast Loan";
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -269,7 +269,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label RequestLoanFinish;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel4;
