@@ -73,6 +73,7 @@
             this.SignUpCustomerFinish.Size = new System.Drawing.Size(138, 56);
             this.SignUpCustomerFinish.TabIndex = 0;
             this.SignUpCustomerFinish.Text = "Sign Up";
+            this.SignUpCustomerFinish.Click += new System.EventHandler(this.SignUpCustomerFinish_Click);
             // 
             // BankCode
             // 
