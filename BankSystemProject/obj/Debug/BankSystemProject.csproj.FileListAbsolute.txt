@@ -9,7 +9,6 @@ C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSyste
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CoreCompileInputs.cache
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.exe
 C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.pdb
-C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.customer_loans.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe.config
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.exe
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\bin\Debug\BankSystemProject.pdb
@@ -25,3 +24,8 @@ C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debu
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Form2.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.SignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.Index.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.CustomerSignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources

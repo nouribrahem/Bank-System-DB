@@ -218,6 +218,7 @@
             this.label9.Size = new System.Drawing.Size(134, 56);
             this.label9.TabIndex = 0;
             this.label9.Text = "LogOut";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // panel3
             // 
@@ -238,6 +239,7 @@
             this.label7.Size = new System.Drawing.Size(106, 56);
             this.label7.TabIndex = 0;
             this.label7.Text = "Loans";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // panel2
             // 

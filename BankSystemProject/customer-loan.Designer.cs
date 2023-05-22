@@ -70,7 +70,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 54.69256F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.30744F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 241F));
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 0);
@@ -86,7 +86,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(406, 20);
+            this.label2.Location = new System.Drawing.Point(405, 20);
             this.label2.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 46);
@@ -113,7 +113,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(684, 20);
+            this.label1.Location = new System.Drawing.Point(683, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 46);
@@ -152,6 +152,7 @@
             this.label4.Size = new System.Drawing.Size(220, 56);
             this.label4.TabIndex = 0;
             this.label4.Text = "Requst a Loan";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel4
             // 
@@ -184,6 +185,7 @@
             this.label9.Size = new System.Drawing.Size(134, 56);
             this.label9.TabIndex = 0;
             this.label9.Text = "LogOut";
+            this.label9.Click += new System.EventHandler(this.label9_Click_1);
             // 
             // panel7
             // 
@@ -204,6 +206,7 @@
             this.label8.Size = new System.Drawing.Size(106, 56);
             this.label8.TabIndex = 0;
             this.label8.Text = "Loans";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox3
             // 
@@ -234,6 +237,7 @@
             this.label10.Size = new System.Drawing.Size(121, 56);
             this.label10.TabIndex = 0;
             this.label10.Text = "Profile";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // Form2
             // 

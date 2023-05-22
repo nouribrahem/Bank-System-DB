@@ -1,0 +1,16 @@
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Release\BankSystemProject.exe.config
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Release\BankSystemProject.exe
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\bin\Release\BankSystemProject.pdb
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.csproj.AssemblyReference.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.Form2.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.Form1.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.SignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.Index.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.Properties.Resources.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.CustomerSignIn.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.RequastLoan.resources
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.csproj.GenerateResource.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.csproj.CoreCompileInputs.cache
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.exe
+C:\Users\noure\source\repos\Bank-System-DB\BankSystemProject\obj\Release\BankSystemProject.pdb

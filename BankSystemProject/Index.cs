@@ -21,5 +21,19 @@ namespace BankSystemProject
         {
 
         }
+
+        private void Customer_Click(object sender, EventArgs e)
+        {
+            CustomerSignIn customer= new CustomerSignIn();
+            customer.Show();
+            Visible= false;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            SignIn emp = new SignIn();
+            emp.Show();
+            Visible = false;
+        }
     }
 }

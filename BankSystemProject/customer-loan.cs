@@ -31,5 +31,31 @@ namespace BankSystemProject
         {
 
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            Visible= false;
+        }
+
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+            Index index = new Index();
+            index.Show();
+            Visible = false;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            RequastLoan loan = new RequastLoan();
+            loan.Show();
+            Visible = false;
+        }
     }
 }

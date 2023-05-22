@@ -66,5 +66,20 @@ namespace BankSystemProject
         {
 
         }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            Visible = false;
+            
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Index index = new Index();
+            index.Show();
+            Visible = false;
+        }
     }
 }

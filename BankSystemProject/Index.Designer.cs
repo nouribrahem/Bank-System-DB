@@ -73,6 +73,7 @@
             this.Customer.Size = new System.Drawing.Size(138, 48);
             this.Customer.TabIndex = 0;
             this.Customer.Text = "Customer";
+            this.Customer.Click += new System.EventHandler(this.Customer_Click);
             // 
             // panel2
             // 
@@ -93,6 +94,7 @@
             this.label2.Size = new System.Drawing.Size(141, 48);
             this.label2.TabIndex = 0;
             this.label2.Text = "Employee";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label5
             // 
