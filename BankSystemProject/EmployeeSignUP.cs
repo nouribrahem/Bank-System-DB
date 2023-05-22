@@ -32,23 +32,18 @@ namespace BankSystemProject
 
         private void SignUpEmployeeFinish_Click(object sender, EventArgs e)
         {
-            /*
-            SqlConnection sqlconnection = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = sqlconnection;*/
+            
+           DBconnection connection = new DBconnection();
+            string emplinfo = "insert into Eployee( emp_name,emp_id, branch_num, emp_pass) values('"+EmployeeName.Text + "'," + EmployeeID.Text + "," + BranchNumber.Text + ",'" + EmployeePassword.Text + "')";
 
 
-
-            if (EmployeeID.Text == "" && EmployeePassword.Text == "" && EmployeeConfirmPassword.Text == "")
+            if (EmployeeID.Text == "" && EmployeeName.Text=="" && BranchNumber.Text =="" && EmployeePassword.Text == "" && EmployeeConfirmPassword.Text == "")
             {
                 MessageBox.Show("employee id and password are empty", "sign up failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (EmployeePassword.Text == EmployeeConfirmPassword.Text)
             {
-                sqlconnection.Open();
-                cmd.CommandText = "insert into Eployee values('" + EmployeeID.Text + "','" + EmployeePassword.Text  + "')";
-                cmd.ExecuteNonQuery();
-                sqlconnection.Close();
+                connection.Query(emplinfo);
                 MessageBox.Show("sign up successfuly!");
 
                 EmployeeProfile emp = new EmployeeProfile();

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace BankSystemProject
         {
             
         }
+        /*
         public void Query(string query)
         {
             try
@@ -37,12 +39,31 @@ namespace BankSystemProject
             
         }
         //////////////////
+        */
 
+        public void Adapt(string query, string table, DataGridView template)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
+                con.Open();
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
+                DataSet ds = new DataSet();
+                da.Fill(ds, table);
+                template.DataSource = ds;
+                template.DataMember = table;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
         public void Query(string query)
         {
             try
             {
-                SqlConnection con = new SqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=TrueData Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
                 con.Open();
