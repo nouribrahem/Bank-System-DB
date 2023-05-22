@@ -70,3 +70,29 @@ C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debu
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeProfile.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.EmployeeSignUP.resources
 C:\Users\DELL\Source\Repos\nouribrahem\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.RequastLoan.resources
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\MySql.Data.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Buffers.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Memory.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\Google.Protobuf.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\MySql.Data.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Buffers.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Memory.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ah\OneDrive\Desktop\programing 1\GitHub\Bank-System-DB\BankSystemProject\obj\Debug\BankSystemProject.csproj.CopyComplete

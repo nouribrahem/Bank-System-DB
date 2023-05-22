@@ -31,6 +31,7 @@ namespace BankSystemProject
 
         private void label7_Click(object sender, EventArgs e)
         {
+            
             SqlConnection sqlconnection = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("select emp_id, emp_pass from Eployee where emp_id ='" + textBox1.Text + "'and emp_pass ='" + textBox2.Text + "'", sqlconnection);
             sqlconnection.Open();
