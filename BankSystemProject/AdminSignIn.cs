@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BankSystemProject
 {
-    public partial class Form4 : Form
+    public partial class AdminSignIn : Form
     {
-        public Form4()
+        public AdminSignIn()
         {
             InitializeComponent();
         }

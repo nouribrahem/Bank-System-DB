@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BankSystemProject
 {
-    public partial class Form1 : Form
+    public partial class CustomerProfile : Form
     {
-        public Form1()
+        public CustomerProfile()
         {
             InitializeComponent();
         }
@@ -69,7 +69,7 @@ namespace BankSystemProject
 
         private void label7_Click_1(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            CustomerLoanPage form2 = new CustomerLoanPage();
             form2.Show();
             Visible = false;
             

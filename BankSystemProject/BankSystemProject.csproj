@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBank.Designer.cs">
+      <DependentUpon>AddBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddBankBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddBankBranch.Designer.cs">
+      <DependentUpon>AdminAddBankBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminListAllLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminListAllLoans.Designer.cs">
+      <DependentUpon>AdminListAllLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfile.Designer.cs">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAddCustomer.Designer.cs">
+      <DependentUpon>EmployeeAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeListCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeListCustomers.Designer.cs">
+      <DependentUpon>EmployeeListCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeListLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeListLoans.Designer.cs">
+      <DependentUpon>EmployeeListLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeProfile.Designer.cs">
+      <DependentUpon>EmployeeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSignUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSignUP.Designer.cs">
+      <DependentUpon>EmployeeSignUP.cs</DependentUpon>
+    </Compile>
     <Compile Include="customer-profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,23 +112,29 @@
     <Compile Include="customer-loan.Designer.cs">
       <DependentUpon>customer-loan.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerSignUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerSignUP.Designer.cs">
+      <DependentUpon>CustomerSignUP.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeSignIn.Designer.cs">
       <DependentUpon>EmployeeSignIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="AdminSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="AdminSignIn.Designer.cs">
+      <DependentUpon>AdminSignIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="RequastALoan.cs">
+    <Compile Include="CustomerRequestALoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RequastALoan.Designer.cs">
-      <DependentUpon>RequastALoan.cs</DependentUpon>
+    <Compile Include="CustomerRequestALoan.Designer.cs">
+      <DependentUpon>CustomerRequestALoan.cs</DependentUpon>
     </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
@@ -90,14 +150,47 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBank.resx">
+      <DependentUpon>AddBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddBankBranch.resx">
+      <DependentUpon>AdminAddBankBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminListAllLoans.resx">
+      <DependentUpon>AdminListAllLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfile.resx">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSignIn.resx">
+      <DependentUpon>AdminSignIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="customer-loan.resx">
       <DependentUpon>customer-loan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="customer-profile.resx">
       <DependentUpon>customer-profile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerSignUP.resx">
+      <DependentUpon>CustomerSignUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAddCustomer.resx">
+      <DependentUpon>EmployeeAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeListCustomers.resx">
+      <DependentUpon>EmployeeListCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeListLoans.resx">
+      <DependentUpon>EmployeeListLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeProfile.resx">
+      <DependentUpon>EmployeeProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeSignIn.resx">
       <DependentUpon>EmployeeSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSignUP.resx">
+      <DependentUpon>EmployeeSignUP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
@@ -114,8 +207,8 @@
     <EmbeddedResource Include="CustomerSignIn.resx">
       <DependentUpon>CustomerSignIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RequastALoan.resx">
-      <DependentUpon>RequastALoan.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerRequestALoan.resx">
+      <DependentUpon>CustomerRequestALoan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

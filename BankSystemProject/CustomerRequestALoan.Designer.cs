@@ -155,7 +155,7 @@
             this.panel4.Controls.Add(this.panel8);
             this.panel4.Location = new System.Drawing.Point(-2, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(323, 737);
+            this.panel4.Size = new System.Drawing.Size(314, 737);
             this.panel4.TabIndex = 25;
             // 
             // panel6
@@ -201,7 +201,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(6, 29);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 29);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(311, 168);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
