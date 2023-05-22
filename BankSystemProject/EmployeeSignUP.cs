@@ -45,10 +45,10 @@ namespace BankSystemProject
             }
             else if (EmployeePassword.Text == EmployeeConfirmPassword.Text)
             {
-                sqlconnection.Open();
-                cmd.CommandText = "insert into Eployee values('" + EmployeeID.Text + "','" + EmployeePassword.Text  + "')";
-                cmd.ExecuteNonQuery();
-                sqlconnection.Close();
+                //sqlconnection.Open();
+                //cmd.CommandText = "insert into Eployee values('" + EmployeeID.Text + "','" + EmployeePassword.Text  + "')";
+                //cmd.ExecuteNonQuery();
+                //sqlconnection.Close();
                 MessageBox.Show("sign up successfuly!");
 
                 EmployeeProfile emp = new EmployeeProfile();
