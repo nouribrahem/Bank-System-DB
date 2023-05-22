@@ -21,5 +21,30 @@ namespace BankSystemProject
         {
 
         }
+
+        private void Customersignin_signin_Click(object sender, EventArgs e)
+        {
+            DBconnection conn = new DBconnection();
+            string q = "select * from customer,hold_by,account where hold_by.ssn =" +textBox1.Text +" AND account.acc_number ="+textBox2.Text+" AND account.acc_pass ="+textBox3.Text;
+            conn.QueryMYSQL(q);
+            CustomerProfile p = new CustomerProfile();
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
