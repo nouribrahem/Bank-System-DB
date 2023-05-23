@@ -36,7 +36,7 @@ namespace BankSystemProject
             if(textBox1.Text != ""  && textBox2.Text != "")
             {
                 DBconnection con = new DBconnection();
-                string query = "select * where emp_id ='" + textBox1.Text + "'and emp_pass =" + textBox2.Text + "";
+                string query = "select * from eployee where emp_id =" + textBox1.Text + "and emp_pass ='" + textBox2.Text + "'";
                 bool found = con.QuerySelect(query);
                 if (found)
                 {

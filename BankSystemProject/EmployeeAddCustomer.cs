@@ -35,8 +35,25 @@ namespace BankSystemProject
             if (CustomerName.Text!="" && CustomerSSN.Text!="" && CustomerAddress.Text!="" && CustomerPhone.Text!="" && AccountNumber.Text!="" && AccountType.Text!="" && AccountBalance.Text!="")
             {
                 DBconnection con = new DBconnection();
-                string query = "insert into Customer ('" + CustomerName.Text + "'," + CustomerSSN.Text + "'," + CustomerAddress.Text + "'," + CustomerPhone.Text + "',";
+                string query = "insert into Customer ('" + CustomerName.Text + "'," + CustomerSSN.Text + ",'" + CustomerAddress.Text + "'," + CustomerPhone.Text + "')";
+                string q1 = "insert into Account (" + AccountNumber.Text +",'" + AccountType.Text +"'," + AccountBalance.Text+")";
+                string q2 = "insert into hold_by (" + CustomerSSN.Text + "," + AccountNumber.Text + ")";
+                string q3 = "insert into serve (" + CustomerSSN.Text + "," + ID.ToString() + ")";
+                con.Query(query);
 
+                con.Query(q1);
+                con.Query(q2);
+                con.Query(q3);
+                MessageBox.Show("Cusomer added");
+                /*
+                EmployeeAddCustomer emp = new EmployeeAddCustomer();
+                emp.ID = ID;
+                emp.Show();
+                Visible = false;
+
+                */
+                   
+                
             }
 
 
