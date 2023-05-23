@@ -13,6 +13,7 @@ namespace BankSystemProject
 {
     public partial class EmployeeAddCustomer : Form
     {
+        public int ID;
         public EmployeeAddCustomer()
         {
             InitializeComponent();
@@ -30,12 +31,26 @@ namespace BankSystemProject
 
         private void AddtheCustomer_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlconncention = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
-            SqlCommand sqlCommand = new SqlCommand();
-            sqlCommand.Connection = sqlconncention;
-            sqlconncention.Open();
+           
+            if (CustomerName.Text!="" && CustomerSSN.Text!="" && CustomerAddress.Text!="" && CustomerPhone.Text!="" && AccountNumber.Text!="" && AccountType.Text!="" && AccountBalance.Text!="")
+            {
+                DBconnection con = new DBconnection();
+                string query = "insert into Customer ('" + CustomerName.Text + "'," + CustomerSSN.Text + "'," + CustomerAddress.Text + "'," + CustomerPhone.Text + "',";
+
+            }
+
+
+
      
 
+        }
+
+        private void lsLoans_Click(object sender, EventArgs e)
+        {
+            EmployeeListLoans emp = new EmployeeListLoans();
+            emp.ID = ID;
+            emp.Show();
+            Visible = false;
         }
     }
 }

@@ -8,9 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BankSystemProject { 
+namespace BankSystemProject
+{
 
-    
+
     public partial class CustomerLoanPage : Form
     {
         public int ssn;
@@ -46,7 +47,7 @@ namespace BankSystemProject {
             CustomerProfile form1 = new CustomerProfile();
             form1.ssn = ssn;
             form1.Show();
-            Visible= false;
+            Visible = false;
         }
 
         private void label9_Click_1(object sender, EventArgs e)

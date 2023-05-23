@@ -32,42 +32,33 @@ namespace BankSystemProject
 
         private void SignUpEmployeeFinish_Click(object sender, EventArgs e)
         {
-            
-           DBconnection connection = new DBconnection();
-            string emplinfo = "insert into Eployee( emp_name,emp_id, branch_num, emp_pass) values('"+EmployeeName.Text + "'," + EmployeeID.Text + "," + BranchNumber.Text + ",'" + EmployeePassword.Text + "')";
-
-
-            if (EmployeeID.Text == "" && EmployeeName.Text=="" && BranchNumber.Text =="" && EmployeePassword.Text == "" && EmployeeConfirmPassword.Text == "")
+           if(EmployeeName.Text!="" && EmployeeID.Text!="" && BranchNumber.Text!=""&& EmployeePassword.Text!="" )
             {
-                MessageBox.Show("employee id and password are empty", "sign up failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else if (EmployeePassword.Text == EmployeeConfirmPassword.Text)
-            {
-                connection.Query(emplinfo);
-                MessageBox.Show("sign up successfuly!");
+                if (EmployeePassword.Text == EmployeeConfirmPassword.Text)
+                {
+                    DBconnection connection = new DBconnection();
+                    string emplinfo = "insert into Eployee( emp_name,emp_id, branch_num, emp_pass) values('" + EmployeeName.Text + "'," + EmployeeID.Text + "," + BranchNumber.Text + ",'" + EmployeePassword.Text + "')";
+                    int found = connection.Query(emplinfo);
+                    if(found > 0)
+                    {
+                        EmployeeProfile employeeProfile = new EmployeeProfile();
+                        employeeProfile.ID = Convert.ToInt32(EmployeeID.Text);
+                        employeeProfile.Show();
+                        Visible = false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("password not match!");
+                }
 
-                EmployeeProfile emp = new EmployeeProfile();
-                emp.Show();
-                this.Hide();
 
             }
             else
             {
-                MessageBox.Show("password doesn't match", "please re-enter", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                EmployeePassword.Text = "";
-                EmployeeConfirmPassword.Text = "";
-                EmployeePassword.Focus();
+                MessageBox.Show("Empty Faild");
             }
-
-          
-
-
-            /*
-            else if(EmployeePassword.Text != null)
-            {
-                MessageBox.Show("this employee has account!");
-            }
-            */
+    
         }
 
 

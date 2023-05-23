@@ -14,6 +14,7 @@ namespace BankSystemProject
 {
     public partial class SignIn : Form
     {
+        public int ID;
         public SignIn()
         {
             InitializeComponent();
@@ -31,29 +32,30 @@ namespace BankSystemProject
 
         private void label7_Click(object sender, EventArgs e)
         {
-            
-            SqlConnection sqlconnection = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
-            SqlCommand cmd = new SqlCommand("select emp_id, emp_pass from Eployee where emp_id ='" + textBox1.Text + "'and emp_pass ='" + textBox2.Text + "'", sqlconnection);
-            sqlconnection.Open();
-            
-            SqlDataReader re = cmd.ExecuteReader();
-            if(re.Read() == true)
+           
+            if(textBox1.Text != ""  && textBox2.Text != "")
             {
-                MessageBox.Show("sign in successfully!");
-                EmployeeProfile profile = new EmployeeProfile();
-                profile.Show();
-                this.Hide();
+                DBconnection con = new DBconnection();
+                string query = "select * where emp_id ='" + textBox1.Text + "'and emp_pass =" + textBox2.Text + "";
+                bool found = con.QuerySelect(query);
+                if (found)
+                {
+                    EmployeeProfile emp = new EmployeeProfile();
+                    emp.ID = ID;
+                    emp.Show();
+                    Visible = false;
+
+                }
+                else
+                {
+                    MessageBox.Show("credentials are not correct!");
+                }
+
             }
             else
             {
-                MessageBox.Show("invalid id or password"," try again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox1.Focus();
+                MessageBox.Show("Missing Field");
             }
-            sqlconnection.Close();
-
-
 
         }
 

@@ -24,13 +24,13 @@ namespace BankSystemProject
         static long ssnIN;
         private void Customersignin_signin_Click(object sender, EventArgs e)
         {
-            
-            if(textBox1.Text != "" && textBox2.Text != ""&& textBox3.Text != "")
+
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
             {
                 DBconnection conn = new DBconnection();
                 string q = "select * from customer,hold_by,account where hold_by.ssn =" + textBox1.Text + " AND account.acc_number =" + textBox2.Text + " AND account.acc_pass =" + textBox3.Text;
                 bool found = conn.QuerySelect(q);
-                
+
                 if (found)
                 {
                     CustomerProfile p = new CustomerProfile();

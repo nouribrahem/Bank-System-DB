@@ -21,22 +21,22 @@ namespace BankSystemProject
         {
 
         }
-    
+
         private void SignUpCustomerFinish_Click(object sender, EventArgs e)
         {
-            
-            if(CustomerSSN.Text != "" && CustomerAccNumber.Text != "" && CustomerAccPassword.Text != "" && CustomerAccConfirmPassword.Text != "")
+
+            if (CustomerSSN.Text != "" && CustomerAccNumber.Text != "" && CustomerAccPassword.Text != "" && CustomerAccConfirmPassword.Text != "")
             {
-                if(CustomerAccPassword.Text == CustomerAccConfirmPassword.Text)
+                if (CustomerAccPassword.Text == CustomerAccConfirmPassword.Text)
                 {
                     DBconnection con = new DBconnection();
                     string query = "update account set acc_pass = '" + CustomerAccPassword.Text + "' where acc_number = " + CustomerAccNumber.Text + " AND acc_pass = '0000';";
                     int found = con.Query(query);
-                    if(found > 0)
+                    if (found > 0)
                     {
                         CustomerProfile p = new CustomerProfile();
                         p.Show();
-                        Visible= false;
+                        Visible = false;
                         p.ssn = Convert.ToInt32(CustomerSSN);
                     }
                     else
@@ -53,10 +53,7 @@ namespace BankSystemProject
             {
                 MessageBox.Show("empty fields!");
             }
-            
 
         }
-            
-        
     }
 }

@@ -42,10 +42,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.EmpProfile = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.Label();
-            this.Salary = new System.Windows.Forms.Label();
-            this.loansTable = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -89,9 +89,10 @@
             this.lsLoans.Location = new System.Drawing.Point(40, 12);
             this.lsLoans.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lsLoans.Name = "lsLoans";
-            this.lsLoans.Size = new System.Drawing.Size(170, 46);
+            this.lsLoans.Size = new System.Drawing.Size(169, 46);
             this.lsLoans.TabIndex = 0;
-            this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Text = "List all Loans";
+            this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6
             // 
@@ -108,7 +109,7 @@
             this.lsCustomers.AutoSize = true;
             this.lsCustomers.Font = new System.Drawing.Font("Microsoft Uighur", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsCustomers.ForeColor = System.Drawing.Color.White;
-            this.lsCustomers.Location = new System.Drawing.Point(24, 12);
+            this.lsCustomers.Location = new System.Drawing.Point(4, 12);
             this.lsCustomers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lsCustomers.Name = "lsCustomers";
             this.lsCustomers.Size = new System.Drawing.Size(224, 46);
@@ -160,6 +161,7 @@
             this.AddCustomerpage.Size = new System.Drawing.Size(206, 46);
             this.AddCustomerpage.TabIndex = 0;
             this.AddCustomerpage.Text = "Add a Customer";
+            this.AddCustomerpage.Click += new System.EventHandler(this.AddCustomerpage_Click);
             // 
             // pictureBox1
             // 
@@ -197,25 +199,13 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(246, 10);
+            this.pictureBox2.Location = new System.Drawing.Point(520, 34);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(98, 90);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(344, 10);
-            this.label3.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 34);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Name:";
             // 
             // id
             // 
@@ -225,38 +215,44 @@
             this.id.Location = new System.Drawing.Point(344, 68);
             this.id.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
             this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(41, 34);
+            this.id.Size = new System.Drawing.Size(0, 34);
             this.id.TabIndex = 30;
-            this.id.Text = "ID:";
             // 
-            // Salary
+            // label1
             // 
-            this.Salary.AutoSize = true;
-            this.Salary.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Salary.ForeColor = System.Drawing.Color.Black;
-            this.Salary.Location = new System.Drawing.Point(344, 38);
-            this.Salary.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
-            this.Salary.Name = "Salary";
-            this.Salary.Size = new System.Drawing.Size(72, 34);
-            this.Salary.TabIndex = 31;
-            this.Salary.Text = "Salary:";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(312, 195);
+            this.label1.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 38);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "Name:";
             // 
-            // loansTable
+            // label2
             // 
-            this.loansTable.ColumnCount = 4;
-            this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.96879F));
-            this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.96879F));
-            this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.96879F));
-            this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.09364F));
-            this.loansTable.Location = new System.Drawing.Point(246, 196);
-            this.loansTable.Margin = new System.Windows.Forms.Padding(2);
-            this.loansTable.Name = "loansTable";
-            this.loansTable.RowCount = 2;
-            this.loansTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.loansTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.loansTable.Size = new System.Drawing.Size(674, 122);
-            this.loansTable.TabIndex = 32;
-            this.loansTable.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(312, 318);
+            this.label2.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(176, 38);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "Branch Number:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(312, 260);
+            this.label3.Margin = new System.Windows.Forms.Padding(52, 16, 15, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 38);
+            this.label3.TabIndex = 33;
+            this.label3.Text = "ID:";
             // 
             // EmployeeProfile
             // 
@@ -264,10 +260,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(929, 595);
-            this.Controls.Add(this.loansTable);
-            this.Controls.Add(this.Salary);
-            this.Controls.Add(this.id);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.id);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -307,9 +303,9 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label lsCustomers;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label id;
-        private System.Windows.Forms.Label Salary;
-        private System.Windows.Forms.TableLayoutPanel loansTable;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
