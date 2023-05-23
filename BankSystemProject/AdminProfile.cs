@@ -16,5 +16,12 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
+
+        private void AddBankBranch_Click(object sender, EventArgs e)
+        {
+            AdminAddBankBranch adminAddBankBranch = new AdminAddBankBranch();  
+            adminAddBankBranch.Show();
+            Visible = false;
+        }
     }
 }

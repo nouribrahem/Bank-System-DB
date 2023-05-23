@@ -82,13 +82,14 @@
             this.AddNewBankBranch.Size = new System.Drawing.Size(275, 56);
             this.AddNewBankBranch.TabIndex = 0;
             this.AddNewBankBranch.Text = "Add Bank Branch";
+            this.AddNewBankBranch.Click += new System.EventHandler(this.AddNewBankBranch_Click);
             // 
             // BankCode
             // 
             this.BankCode.AutoSize = true;
             this.BankCode.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BankCode.ForeColor = System.Drawing.Color.Black;
-            this.BankCode.Location = new System.Drawing.Point(486, 411);
+            this.BankCode.Location = new System.Drawing.Point(477, 411);
             this.BankCode.Name = "BankCode";
             this.BankCode.Size = new System.Drawing.Size(136, 39);
             this.BankCode.TabIndex = 57;
@@ -107,7 +108,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(438, 319);
+            this.label5.Location = new System.Drawing.Point(429, 318);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(184, 39);
             this.label5.TabIndex = 55;
@@ -118,7 +119,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(435, 226);
+            this.label12.Location = new System.Drawing.Point(426, 224);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(187, 39);
             this.label12.TabIndex = 54;
@@ -207,6 +208,7 @@
             this.lsLoans.Size = new System.Drawing.Size(207, 56);
             this.lsLoans.TabIndex = 0;
             this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6
             // 

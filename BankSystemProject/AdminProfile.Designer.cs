@@ -141,6 +141,7 @@
             this.AddBankBranch.Size = new System.Drawing.Size(275, 56);
             this.AddBankBranch.TabIndex = 0;
             this.AddBankBranch.Text = "Add Bank Branch";
+            this.AddBankBranch.Click += new System.EventHandler(this.AddBankBranch_Click);
             // 
             // panel4
             // 

@@ -16,5 +16,16 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
+
+        private void AdminSignInButton_Click(object sender, EventArgs e)
+        {
+            DBconnection dBconnection = new DBconnection();
+            string Q = "select * from admin where " + AdminId.Text + " = admin_id AND " + AdminPassword.Text + " = admin_pass";
+            dBconnection.Query(Q);
+            AdminProfile profile = new AdminProfile();
+            profile.Show();
+            /*profile.Name = Q;*/
+            Visible = false;
+        }
     }
 }
