@@ -34,9 +34,9 @@ namespace BankSystemProject
                 if (found)
                 {
                     CustomerProfile p = new CustomerProfile();
+                    p.ssn = Convert.ToInt32(textBox1.Text);
                     p.Show();
                     Visible = false;
-                    p.ssn = Convert.ToInt32(textBox1.Text);
                 }
                 else
                 {
