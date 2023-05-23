@@ -24,7 +24,8 @@ namespace BankSystemProject
 
         private void SignUpCustomerFinish_Click(object sender, EventArgs e)
         {
-            
+            DBconnection con = new DBconnection();
+
 
         }
     }

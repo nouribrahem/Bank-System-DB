@@ -26,5 +26,12 @@ namespace BankSystemProject
         {
 
         }
+
+        private void lsCustomers_Click(object sender, EventArgs e)
+        {
+            EmployeeListCustomers employeeListCustomers = new EmployeeListCustomers();
+            employeeListCustomers.Show();
+            this.Hide();
+        }
     }
 }

@@ -216,7 +216,7 @@ namespace BankSystemProject
 
         private void panel7_Paint(object sender, PaintEventArgs e)
         {
-            throw new NotImplementedException();
+            
         }
 
         #endregion
