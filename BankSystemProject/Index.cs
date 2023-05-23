@@ -42,5 +42,10 @@ namespace BankSystemProject
             admin.Show();
             Visible = false;
         }
+
+        private void Index_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
