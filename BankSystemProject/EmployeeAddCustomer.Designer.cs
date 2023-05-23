@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeeAddCustomer));
-            this.Salary = new System.Windows.Forms.Label();
-            this.id = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -71,42 +68,6 @@
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Salary
-            // 
-            this.Salary.AutoSize = true;
-            this.Salary.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Salary.ForeColor = System.Drawing.Color.Black;
-            this.Salary.Location = new System.Drawing.Point(463, 50);
-            this.Salary.Margin = new System.Windows.Forms.Padding(69, 20, 20, 20);
-            this.Salary.Name = "Salary";
-            this.Salary.Size = new System.Drawing.Size(85, 39);
-            this.Salary.TabIndex = 37;
-            this.Salary.Text = "Salary:";
-            // 
-            // id
-            // 
-            this.id.AutoSize = true;
-            this.id.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id.ForeColor = System.Drawing.Color.Black;
-            this.id.Location = new System.Drawing.Point(463, 87);
-            this.id.Margin = new System.Windows.Forms.Padding(69, 20, 20, 20);
-            this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(49, 39);
-            this.id.TabIndex = 36;
-            this.id.Text = "ID:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(463, 15);
-            this.label3.Margin = new System.Windows.Forms.Padding(69, 20, 20, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 39);
-            this.label3.TabIndex = 35;
-            this.label3.Text = "Name:";
             // 
             // pictureBox2
             // 
@@ -151,9 +112,9 @@
             this.lsLoans.ForeColor = System.Drawing.Color.White;
             this.lsLoans.Location = new System.Drawing.Point(53, 15);
             this.lsLoans.Name = "lsLoans";
-            this.lsLoans.Size = new System.Drawing.Size(207, 56);
+            this.lsLoans.Size = new System.Drawing.Size(206, 56);
             this.lsLoans.TabIndex = 0;
-            this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Text = "List all Loans";
             this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6
@@ -176,6 +137,7 @@
             this.lsCustomers.Size = new System.Drawing.Size(275, 56);
             this.lsCustomers.TabIndex = 0;
             this.lsCustomers.Text = "List all Customers";
+            this.lsCustomers.Click += new System.EventHandler(this.lsCustomers_Click);
             // 
             // panel4
             // 
@@ -251,6 +213,7 @@
             this.EmpProfile.Size = new System.Drawing.Size(121, 56);
             this.EmpProfile.TabIndex = 0;
             this.EmpProfile.Text = "Profile";
+            this.EmpProfile.Click += new System.EventHandler(this.EmpProfile_Click);
             // 
             // label1
             // 
@@ -437,9 +400,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.CustomerAddress);
             this.Controls.Add(this.CustomerSSN);
-            this.Controls.Add(this.Salary);
-            this.Controls.Add(this.id);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -466,9 +426,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label Salary;
-        private System.Windows.Forms.Label id;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;

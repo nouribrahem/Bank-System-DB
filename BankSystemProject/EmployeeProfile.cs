@@ -74,5 +74,10 @@ namespace BankSystemProject
             index.Show();
             Visible = false;
         }
+
+        private void EmpProfile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

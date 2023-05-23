@@ -191,6 +191,7 @@
             this.EmpProfile.Size = new System.Drawing.Size(121, 56);
             this.EmpProfile.TabIndex = 0;
             this.EmpProfile.Text = "Profile";
+            this.EmpProfile.Click += new System.EventHandler(this.EmpProfile_Click);
             // 
             // pictureBox2
             // 

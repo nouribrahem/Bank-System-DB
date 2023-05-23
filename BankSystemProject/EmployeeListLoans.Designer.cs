@@ -122,6 +122,7 @@
             this.lsCustomers.Size = new System.Drawing.Size(275, 56);
             this.lsCustomers.TabIndex = 0;
             this.lsCustomers.Text = "List all Customers";
+            this.lsCustomers.Click += new System.EventHandler(this.lsCustomers_Click);
             // 
             // panel4
             // 
@@ -165,6 +166,7 @@
             this.AddCustomerpage.Size = new System.Drawing.Size(254, 56);
             this.AddCustomerpage.TabIndex = 0;
             this.AddCustomerpage.Text = "Add a Customer";
+            this.AddCustomerpage.Click += new System.EventHandler(this.AddCustomerpage_Click);
             // 
             // pictureBox1
             // 
@@ -197,6 +199,7 @@
             this.EmpProfile.Size = new System.Drawing.Size(121, 56);
             this.EmpProfile.TabIndex = 0;
             this.EmpProfile.Text = "Profile";
+            this.EmpProfile.Click += new System.EventHandler(this.EmpProfile_Click);
             // 
             // dataGridView1
             // 
@@ -204,7 +207,7 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(340, 150);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(853, 420);

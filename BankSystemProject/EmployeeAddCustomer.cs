@@ -76,5 +76,21 @@ namespace BankSystemProject
             index.Show();
             Visible = false;
         }
+
+        private void EmpProfile_Click(object sender, EventArgs e)
+        {
+            EmployeeProfile p = new EmployeeProfile();
+            p.ID = ID;
+            p.Show();
+            Visible = false;
+        }
+
+        private void lsCustomers_Click(object sender, EventArgs e)
+        {
+            EmployeeListCustomers employee= new EmployeeListCustomers();
+            employee.ID = ID;
+            employee.Show();
+            Visible = false;
+        }
     }
 }
