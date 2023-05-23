@@ -16,5 +16,10 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
+
+        private void RequestLoanFinish_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

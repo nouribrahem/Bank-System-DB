@@ -33,5 +33,10 @@ namespace BankSystemProject
             employeeListCustomers.Show();
             this.Hide();
         }
+
+        private void EmployeeProfile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

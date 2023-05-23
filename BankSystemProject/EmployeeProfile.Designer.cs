@@ -66,7 +66,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-3, -2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(238, 599);
             this.panel1.TabIndex = 10;
@@ -76,7 +76,7 @@
             this.panel5.BackColor = System.Drawing.Color.Green;
             this.panel5.Controls.Add(this.lsLoans);
             this.panel5.Location = new System.Drawing.Point(2, 427);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(238, 58);
             this.panel5.TabIndex = 3;
@@ -98,7 +98,7 @@
             this.panel6.BackColor = System.Drawing.Color.Green;
             this.panel6.Controls.Add(this.lsCustomers);
             this.panel6.Location = new System.Drawing.Point(2, 336);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(238, 58);
             this.panel6.TabIndex = 3;
@@ -121,7 +121,7 @@
             this.panel4.BackColor = System.Drawing.Color.Green;
             this.panel4.Controls.Add(this.LogOut);
             this.panel4.Location = new System.Drawing.Point(4, 535);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(233, 58);
             this.panel4.TabIndex = 3;
@@ -143,7 +143,7 @@
             this.panel3.BackColor = System.Drawing.Color.Green;
             this.panel3.Controls.Add(this.AddCustomerpage);
             this.panel3.Location = new System.Drawing.Point(0, 250);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(238, 58);
             this.panel3.TabIndex = 2;
@@ -165,7 +165,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(4, 24);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(233, 136);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,7 +177,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.panel2.Controls.Add(this.EmpProfile);
             this.panel2.Location = new System.Drawing.Point(0, 177);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(238, 58);
             this.panel2.TabIndex = 1;
@@ -198,7 +198,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(246, 10);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(98, 90);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -249,7 +249,7 @@
             this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.96879F));
             this.loansTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.09364F));
             this.loansTable.Location = new System.Drawing.Point(246, 196);
-            this.loansTable.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loansTable.Margin = new System.Windows.Forms.Padding(2);
             this.loansTable.Name = "loansTable";
             this.loansTable.RowCount = 2;
             this.loansTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -270,9 +270,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EmployeeProfile";
             this.Text = "EmployeeProfile";
+            this.Load += new System.EventHandler(this.EmployeeProfile_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();

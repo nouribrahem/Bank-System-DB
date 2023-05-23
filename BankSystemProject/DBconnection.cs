@@ -14,14 +14,16 @@ namespace BankSystemProject
 
         /// for MySQL//
 
-        
+
         public DBconnection()
         {
-            
+
         }
         //selection
+        
         public bool QuerySelect(string query)
         {
+            
             try
             {
                 MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
@@ -45,16 +47,17 @@ namespace BankSystemProject
                     return false;
                 }
                 //MessageBox.Show(reader.HasRows.ToString());
-               // return reader.HasRows;
-                
+                // return reader.HasRows;
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
                 return false;
             }
-
+            
         }
+        /*
         public int Query(string query)
         {
             try
@@ -79,7 +82,8 @@ namespace BankSystemProject
 
         }
         //////////////////
-
+        */
+        /*
         public string Adapt(string query, string table)
         {
             try
@@ -87,7 +91,7 @@ namespace BankSystemProject
                 MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
                 con.Open();
                 MySqlDataAdapter da = new MySqlDataAdapter(query, con);
-                //string s = da.ToString();
+                string s = da.ToString();
                 DataSet ds = new DataSet();
                 da.Fill(ds, table);
                 con.Close();
@@ -99,41 +103,68 @@ namespace BankSystemProject
                 return "";
             }
         }
-        //public void Adapt(string query, string table, DataGridView template)
-        //{
-        //    try
-        //    {
-        //        SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
-        //        con.Open();
-        //        SqlDataAdapter da = new SqlDataAdapter(query, con);
-        //        DataSet ds = new DataSet();
-        //        da.Fill(ds, table);
-        //        template.DataSource = ds;
-        //        template.DataMember = table;
-        //        con.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message);
-        //    }
-        //}
-        //public void Query(string query)
-        //{
-        //    try
-        //    {
-        //        SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=TrueData Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
-        //        SqlCommand cmd = new SqlCommand();
-        //        cmd.Connection = con;
-        //        con.Open();
-        //        cmd.CommandText = query;
-        //        cmd.ExecuteNonQuery();
-        //        con.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message);
-        //    }
 
-        //}
+        
+        */
+        
+       public string Adapt(string query, string table)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
+                con.Open();
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
+                string s = da.ToString();
+                DataSet ds = new DataSet();
+                da.Fill(ds, table);
+                con.Close();
+                 return s;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "";
+            }
+        }
+        
+    
+        /*
+        public void Adapt(string query, string table, DataGridView template)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
+                con.Open();
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
+                DataSet ds = new DataSet();
+                da.Fill(ds, table);
+                template.DataSource = ds;
+                template.DataMember = table;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+      */
+        public void Query(string query)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+                con.Open();
+                cmd.CommandText = query;
+               cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
     }
 }

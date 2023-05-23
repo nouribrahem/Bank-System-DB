@@ -21,9 +21,10 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             DBconnection con = new DBconnection();
             string query = "select @label1.Text += from customer where cus_ass = " + ssn.ToString() + ";";
             //label1.Text += con.Adapt(query,"customer");
@@ -43,8 +44,9 @@ namespace BankSystemProject
 
             query = "DECLARE @myOutputString AS VARCHAR(MAX) = ''; SELECT @myOutputString += concat(name, ' ', create_date, ' ', state_desc, char(13), char(10)) FROM sys.databases WHERE database_id < 9; print @myOutputString;";
             con.Query(query);
+            
         }
-
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 

@@ -22,22 +22,32 @@ namespace BankSystemProject
 
         private void EmployeeListCustomers_Load(object sender, EventArgs e)
         {
-            /*
             
+           /* 
             DBconnection connection = new DBconnection();
             string customerlist = "select * from Customer";
-            connection.Adapt(customerlist, "Customer", dataGridView1);
+          //  connection.Adapt(customerlist, "Customer", dataGridView1);
 
             connection.Query(customerlist);
+  
+                   
             */
-            SqlConnection conn = new SqlConnection();
+
 
             
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=TrueData Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
+            SqlCommand sqlCommand = new SqlCommand();
+            sqlCommand.Connection = con;
+            con.Open();
+            SqlDataAdapter da = new SqlDataAdapter("select * from Customer", con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            
         }
     }
 }

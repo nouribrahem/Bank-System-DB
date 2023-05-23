@@ -44,5 +44,10 @@ namespace BankSystemProject
             index.Show();
             Visible=false;
         }
+
+        private void AdminProfile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
