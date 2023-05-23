@@ -19,12 +19,12 @@ namespace BankSystemProject
         {
             
         }
-        /*
+      
         public void Query(string query)
         {
             try
             {
-                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
+                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=a#r@w$a#2020123;database=banksystem");
                 MySqlCommand cmd = new MySqlCommand(); 
                 cmd.Connection= con;
                 con.Open();
@@ -39,9 +39,9 @@ namespace BankSystemProject
             
         }
         //////////////////
-        */
+        
 
-        public void Adapt(string query, string table, DataGridView template)
+        /*public void Adapt(string query, string table, DataGridView template)
         {
             try
             {
@@ -76,6 +76,6 @@ namespace BankSystemProject
                 MessageBox.Show(ex.Message);
             }
 
-        }
+        }*/
     }
 }

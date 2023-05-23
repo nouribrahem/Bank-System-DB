@@ -89,7 +89,7 @@
             this.BankCode.AutoSize = true;
             this.BankCode.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BankCode.ForeColor = System.Drawing.Color.Black;
-            this.BankCode.Location = new System.Drawing.Point(477, 411);
+            this.BankCode.Location = new System.Drawing.Point(477, 413);
             this.BankCode.Name = "BankCode";
             this.BankCode.Size = new System.Drawing.Size(136, 39);
             this.BankCode.TabIndex = 57;
@@ -249,6 +249,7 @@
             this.LogOut.Size = new System.Drawing.Size(134, 56);
             this.LogOut.TabIndex = 0;
             this.LogOut.Text = "LogOut";
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // panel3
             // 
@@ -269,6 +270,7 @@
             this.label1.Size = new System.Drawing.Size(167, 56);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add Bank";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -299,6 +301,7 @@
             this.EmpProfile.Size = new System.Drawing.Size(121, 56);
             this.EmpProfile.TabIndex = 0;
             this.EmpProfile.Text = "Profile";
+            this.EmpProfile.Click += new System.EventHandler(this.EmpProfile_Click);
             // 
             // AdminAddBankBranch
             // 

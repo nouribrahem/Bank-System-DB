@@ -121,6 +121,7 @@
             this.lsLoans.Size = new System.Drawing.Size(207, 56);
             this.lsLoans.TabIndex = 0;
             this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6
             // 
@@ -162,6 +163,7 @@
             this.LogOut.Size = new System.Drawing.Size(134, 56);
             this.LogOut.TabIndex = 0;
             this.LogOut.Text = "LogOut";
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // panel3
             // 
@@ -182,6 +184,7 @@
             this.AddBank.Size = new System.Drawing.Size(167, 56);
             this.AddBank.TabIndex = 0;
             this.AddBank.Text = "Add Bank";
+            this.AddBank.Click += new System.EventHandler(this.AddBank_Click);
             // 
             // pictureBox1
             // 
