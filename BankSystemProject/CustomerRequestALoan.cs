@@ -61,9 +61,19 @@ namespace BankSystemProject
 
         private void RequastLoan_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        private void RequastLoan_Load_1(object sender, EventArgs e)
+        {
             comboBox1.Items.Add("personal");
             comboBox1.Items.Add("industry");
             comboBox1.Items.Add("commercial");
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

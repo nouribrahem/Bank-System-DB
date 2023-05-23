@@ -24,7 +24,7 @@ namespace BankSystemProject
         {
             try
             {
-                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=a#r@w$a#2020123;database=banksystem");
+                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
                 MySqlCommand cmd = new MySqlCommand();
                 cmd.Connection = con;
                 con.Open();
@@ -59,7 +59,7 @@ namespace BankSystemProject
         {
             try
             {
-                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=a#r@w$a#2020123;database=banksystem");
+                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
                 MySqlCommand cmd = new MySqlCommand();
                 cmd.Connection = con;
                 con.Open();
@@ -84,7 +84,7 @@ namespace BankSystemProject
         {
             try
             {
-                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=a#r@w$a#2020123;database=banksystem");
+                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
                 con.Open();
                 MySqlCommand com = new MySqlCommand(query, con);
                 MySqlDataReader reader = com.ExecuteReader();
@@ -109,7 +109,7 @@ namespace BankSystemProject
         {
             try
             {
-                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=a#r@w$a#2020123;database=banksystem");
+                MySqlConnection con = new MySqlConnection("server=localhost;uid=root;pwd=N157sql2003#;database=banksystem");
                 con.Open();
                 MySqlDataAdapter da = new MySqlDataAdapter(query, con);
                 DataSet ds = new DataSet();

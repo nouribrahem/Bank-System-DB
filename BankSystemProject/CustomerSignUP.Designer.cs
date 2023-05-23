@@ -170,6 +170,7 @@
             this.Controls.Add(this.CustomerSSN);
             this.Name = "CustomerSignUP";
             this.Text = "CustomerSignUP";
+            this.Load += new System.EventHandler(this.CustomerSignUP_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();

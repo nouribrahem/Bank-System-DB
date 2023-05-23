@@ -15,6 +15,7 @@ namespace BankSystemProject
 {
     public partial class EmployeeSignUP : Form
     {
+
         public EmployeeSignUP()
         {
             InitializeComponent();
@@ -61,6 +62,9 @@ namespace BankSystemProject
     
         }
 
+        private void EmployeeSignUP_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

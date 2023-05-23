@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeeListCustomers));
             this.Salary = new System.Windows.Forms.Label();
-            this.id = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -67,18 +66,6 @@
             this.Salary.Size = new System.Drawing.Size(0, 39);
             this.Salary.TabIndex = 37;
             this.Salary.Click += new System.EventHandler(this.Salary_Click);
-            // 
-            // id
-            // 
-            this.id.AutoSize = true;
-            this.id.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id.ForeColor = System.Drawing.Color.Black;
-            this.id.Location = new System.Drawing.Point(474, 86);
-            this.id.Margin = new System.Windows.Forms.Padding(69, 20, 20, 20);
-            this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(49, 39);
-            this.id.TabIndex = 36;
-            this.id.Text = "ID:";
             // 
             // pictureBox2
             // 
@@ -143,7 +130,7 @@
             this.lsCustomers.AutoSize = true;
             this.lsCustomers.Font = new System.Drawing.Font("Microsoft Uighur", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsCustomers.ForeColor = System.Drawing.Color.White;
-            this.lsCustomers.Location = new System.Drawing.Point(3, 15);
+            this.lsCustomers.Location = new System.Drawing.Point(9, 15);
             this.lsCustomers.Name = "lsCustomers";
             this.lsCustomers.Size = new System.Drawing.Size(275, 56);
             this.lsCustomers.TabIndex = 0;
@@ -248,7 +235,6 @@
             this.ClientSize = new System.Drawing.Size(1239, 732);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Salary);
-            this.Controls.Add(this.id);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -276,7 +262,6 @@
 
         #endregion
         private System.Windows.Forms.Label Salary;
-        private System.Windows.Forms.Label id;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;

@@ -55,5 +55,10 @@ namespace BankSystemProject
             }
 
         }
+
+        private void CustomerSignUP_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

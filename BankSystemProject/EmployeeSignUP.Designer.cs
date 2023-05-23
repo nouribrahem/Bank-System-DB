@@ -206,6 +206,7 @@ namespace BankSystemProject
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "EmployeeSignUP";
             this.Text = "EmployeeSignUP";
+            this.Load += new System.EventHandler(this.EmployeeSignUP_Load);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
