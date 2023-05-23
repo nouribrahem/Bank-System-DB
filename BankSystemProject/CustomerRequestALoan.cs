@@ -61,18 +61,26 @@ namespace BankSystemProject
 
         private void RequastLoan_Load(object sender, EventArgs e)
         {
-            
-        }
-
-        private void RequastLoan_Load_1(object sender, EventArgs e)
-        {
             comboBox1.Items.Add("personal");
             comboBox1.Items.Add("industry");
             comboBox1.Items.Add("commercial");
         }
 
-        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e)
         {
+            CustomerProfile customerProfile = new CustomerProfile();
+            customerProfile.ssn = ssn;
+            customerProfile.Show();
+            Visible = false;
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            CustomerLoanPage page = new CustomerLoanPage();
+            page.ssn = ssn;
+            page.Show();
+            Visible = false;
 
         }
     }

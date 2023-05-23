@@ -32,9 +32,9 @@ namespace BankSystemProject
         private void lsCustomers_Click(object sender, EventArgs e)
         {
             EmployeeListCustomers employeeListCustomers = new EmployeeListCustomers();
-            employeeListCustomers.ID= ID;
+            employeeListCustomers.ID = ID;
             employeeListCustomers.Show();
-            this.Hide();
+            Visible = false;
         }
 
         private void EmployeeProfile_Load(object sender, EventArgs e)
@@ -79,6 +79,14 @@ namespace BankSystemProject
         private void EmpProfile_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void update_details_Click(object sender, EventArgs e)
+        {
+            Employee_Update__details emp = new Employee_Update__details();
+            emp.ID = ID;
+            emp.Show();
+            Visible = false;
         }
     }
 }

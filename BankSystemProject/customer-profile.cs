@@ -112,5 +112,13 @@ namespace BankSystemProject
         {
 
         }
+
+        private void Customer_Update_Details_label_Click(object sender, EventArgs e)
+        {
+            Customer_Update__details cus = new Customer_Update__details(); ;
+            cus.ssn = ssn;
+            cus.Show();
+            Visible=false;
+        }
     }
 }

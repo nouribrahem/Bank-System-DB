@@ -20,6 +20,7 @@ namespace BankSystemProject
         {
 
         }
+        /*
         public bool QuerySelect(string query)
         {
             try
@@ -29,8 +30,8 @@ namespace BankSystemProject
                 cmd.Connection = con;
                 con.Open();
                 cmd.CommandText = query;
-                //MySqlDataReader reader = cmd.ExecuteReader();
-                //reader.Close();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                reader.Close();
                 object obj = cmd.ExecuteScalar();
                 if (Convert.ToInt32(obj) > 0)
                 {
@@ -44,8 +45,8 @@ namespace BankSystemProject
                     con.Close();
                     return false;
                 }
-                //MessageBox.Show(reader.HasRows.ToString());
-                // return reader.HasRows;
+                MessageBox.Show(reader.HasRows.ToString());
+                return reader.HasRows;
 
             }
             catch (Exception ex)
@@ -64,8 +65,8 @@ namespace BankSystemProject
                 cmd.Connection = con;
                 con.Open();
                 cmd.CommandText = query;
-                //MySqlDataReader reader = cmd.ExecuteReader();
-                //reader.Close();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                reader.Close();
                 int found = cmd.ExecuteNonQuery();
                 con.Close();
                 return found;
@@ -123,9 +124,10 @@ namespace BankSystemProject
                 MessageBox.Show(ex.Message);
             }
         }
+        */
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        /*public bool QuerySelect(string query)
+        public bool QuerySelect(string query)
         {
             try
             {
@@ -165,7 +167,7 @@ namespace BankSystemProject
         {
             try
             {
-                SqlConnection con = new SqlConnection("Data Source = DESKTOP - N9PK8TN; Initial Catalog = BankSysttem; Integrated Security = True");
+                SqlConnection con = new SqlConnection("Data Source= DESKTOP-N9PK8TN;Initial Catalog=BankSysttem;Integrated Security=True");
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
                 con.Open();
@@ -179,7 +181,7 @@ namespace BankSystemProject
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+               // MessageBox.Show(ex.Message);
                 return -1;
             }
 
@@ -228,7 +230,7 @@ namespace BankSystemProject
             {
                 MessageBox.Show(ex.Message);
             }
-        }*/
+        }
 
     }
 }
