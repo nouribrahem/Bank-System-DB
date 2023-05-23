@@ -16,5 +16,33 @@ namespace BankSystemProject
         {
             InitializeComponent();
         }
+
+        private void AddBankBranch_Click(object sender, EventArgs e)
+        {
+            AdminAddBankBranch adminAddBankBranch = new AdminAddBankBranch();
+            adminAddBankBranch.Show();
+            Visible = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            AddBankPage addBankPage = new AddBankPage();
+            addBankPage.Show();
+            Visible = false;
+        }
+
+        private void EmpProfile_Click(object sender, EventArgs e)
+        {
+            AdminProfile adminProfile = new AdminProfile();
+            adminProfile.Show();
+            Visible = false;
+        }
+
+        private void LogOut_Click(object sender, EventArgs e)
+        {
+            Index index = new Index();
+            index.Show();
+            Visible = false;
+        }
     }
 }

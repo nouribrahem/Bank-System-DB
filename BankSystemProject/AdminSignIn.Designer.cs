@@ -59,6 +59,7 @@
             this.AdminSignInButton.Size = new System.Drawing.Size(115, 51);
             this.AdminSignInButton.TabIndex = 0;
             this.AdminSignInButton.Text = "Sign In";
+            this.AdminSignInButton.Click += new System.EventHandler(this.AdminSignInButton_Click);
             // 
             // label5
             // 

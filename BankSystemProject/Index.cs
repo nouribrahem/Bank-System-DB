@@ -35,5 +35,12 @@ namespace BankSystemProject
             emp.Show();
             Visible = false;
         }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+            AdminSignIn admin = new AdminSignIn();
+            admin.Show();
+            Visible = false;
+        }
     }
 }

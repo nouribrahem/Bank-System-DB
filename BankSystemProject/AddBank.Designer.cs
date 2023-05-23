@@ -130,6 +130,7 @@
             this.lsLoans.Size = new System.Drawing.Size(207, 56);
             this.lsLoans.TabIndex = 0;
             this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6
             // 
@@ -150,6 +151,7 @@
             this.AddBankBranch.Size = new System.Drawing.Size(275, 56);
             this.AddBankBranch.TabIndex = 0;
             this.AddBankBranch.Text = "Add Bank Branch";
+            this.AddBankBranch.Click += new System.EventHandler(this.AddBankBranch_Click);
             // 
             // panel4
             // 
@@ -170,6 +172,7 @@
             this.LogOut.Size = new System.Drawing.Size(134, 56);
             this.LogOut.TabIndex = 0;
             this.LogOut.Text = "LogOut";
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // panel3
             // 
@@ -220,6 +223,7 @@
             this.EmpProfile.Size = new System.Drawing.Size(121, 56);
             this.EmpProfile.TabIndex = 0;
             this.EmpProfile.Text = "Profile";
+            this.EmpProfile.Click += new System.EventHandler(this.EmpProfile_Click);
             // 
             // label12
             // 
@@ -297,6 +301,7 @@
             this.AddNewBank.Size = new System.Drawing.Size(167, 56);
             this.AddNewBank.TabIndex = 0;
             this.AddNewBank.Text = "Add Bank";
+            this.AddNewBank.Click += new System.EventHandler(this.AddNewBank_Click);
             // 
             // AddBankPage
             // 
