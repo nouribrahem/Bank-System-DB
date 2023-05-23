@@ -65,5 +65,23 @@ namespace BankSystemProject
             comboBox1.Items.Add("industry");
             comboBox1.Items.Add("commercial");
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            CustomerProfile customerProfile = new CustomerProfile();
+            customerProfile.ssn = ssn;
+            customerProfile.Show();
+            Visible = false;
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            CustomerLoanPage page = new CustomerLoanPage();
+            page.ssn = ssn;
+            page.Show();
+            Visible = false;
+
+        }
     }
 }

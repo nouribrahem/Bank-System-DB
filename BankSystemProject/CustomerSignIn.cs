@@ -71,6 +71,7 @@ namespace BankSystemProject
         private void label1_Click(object sender, EventArgs e)
         {
             CustomerSignUP s = new CustomerSignUP();
+           
             s.Show();
             Visible = false;
         }

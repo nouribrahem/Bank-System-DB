@@ -12,6 +12,7 @@ namespace BankSystemProject
 {
     public partial class CustomerSignUP : Form
     {
+
         public CustomerSignUP()
         {
             InitializeComponent();
@@ -35,9 +36,10 @@ namespace BankSystemProject
                     if (found > 0)
                     {
                         CustomerProfile p = new CustomerProfile();
+                        p.ssn = Convert.ToInt32(CustomerSSN);
                         p.Show();
                         Visible = false;
-                        p.ssn = Convert.ToInt32(CustomerSSN);
+                        
                     }
                     else
                     {

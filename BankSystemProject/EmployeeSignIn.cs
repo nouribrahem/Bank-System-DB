@@ -38,13 +38,14 @@ namespace BankSystemProject
                 DBconnection con = new DBconnection();
                 string query = "select * from eployee where emp_id = " + textBox1.Text + " AND emp_pass = '" + textBox2.Text + "' ;";
                 bool found = con.QuerySelect(query);
-                MessageBox.Show(found.ToString());
+               
                 if (found)
                 {
                     EmployeeProfile emp = new EmployeeProfile();
-                    emp.ID = ID;
+                    emp.ID = Convert.ToInt32(textBox1.Text); ;
                     emp.Show();
                     Visible = false;
+                  
 
                 }
                 else

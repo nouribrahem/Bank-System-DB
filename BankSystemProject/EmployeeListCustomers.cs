@@ -51,6 +51,7 @@ namespace BankSystemProject
         private void AddCustomerpage_Click(object sender, EventArgs e)
         {
             EmployeeAddCustomer emp = new EmployeeAddCustomer();
+            emp.ID = ID;
             emp.Show();
             Visible = false;
 
