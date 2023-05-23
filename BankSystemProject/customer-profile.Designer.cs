@@ -35,7 +35,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,7 +46,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -70,10 +68,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(70, 20);
+            this.label1.Location = new System.Drawing.Point(384, 294);
             this.label1.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 40);
+            this.label1.Size = new System.Drawing.Size(99, 48);
             this.label1.TabIndex = 2;
             this.label1.Text = "Name:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -83,10 +81,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(70, 100);
+            this.label2.Location = new System.Drawing.Point(406, 362);
             this.label2.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 44);
+            this.label2.Size = new System.Drawing.Size(77, 48);
             this.label2.TabIndex = 3;
             this.label2.Text = "SSN:";
             // 
@@ -95,10 +93,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(70, 184);
+            this.label3.Location = new System.Drawing.Point(379, 417);
             this.label3.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 45);
+            this.label3.Size = new System.Drawing.Size(104, 48);
             this.label3.TabIndex = 4;
             this.label3.Text = "Phone:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -108,10 +106,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(70, 269);
+            this.label4.Location = new System.Drawing.Point(357, 479);
             this.label4.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 44);
+            this.label4.Size = new System.Drawing.Size(126, 48);
             this.label4.TabIndex = 5;
             this.label4.Text = "Address:";
             // 
@@ -120,44 +118,19 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(70, 522);
+            this.label5.Location = new System.Drawing.Point(363, 655);
             this.label5.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 33);
+            this.label5.Size = new System.Drawing.Size(120, 48);
             this.label5.TabIndex = 6;
             this.label5.Text = "Balance:";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.07366F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58.92634F));
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 0, 5);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(380, 145);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.85944F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.06024F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.85944F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.46586F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.4357F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.47601F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(801, 575);
-            this.tableLayoutPanel1.TabIndex = 8;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(70, 353);
+            this.label8.Location = new System.Drawing.Point(342, 546);
             this.label8.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(141, 48);
@@ -170,10 +143,10 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(70, 446);
+            this.label10.Location = new System.Drawing.Point(348, 597);
             this.label10.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(135, 36);
+            this.label10.Size = new System.Drawing.Size(135, 48);
             this.label10.TabIndex = 8;
             this.label10.Text = "AccType:";
             // 
@@ -268,15 +241,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(1239, 732);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label1);
             this.Name = "CustomerProfile";
             this.Text = "customerProfile";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -286,6 +263,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -296,7 +274,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;

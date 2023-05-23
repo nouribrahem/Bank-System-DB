@@ -21,13 +21,33 @@ namespace BankSystemProject
         {
 
         }
-
+        static long ssnIN;
         private void Customersignin_signin_Click(object sender, EventArgs e)
         {
-            DBconnection conn = new DBconnection();
-            string q = "select * from customer,hold_by,account where hold_by.ssn =" +textBox1.Text +" AND account.acc_number ="+textBox2.Text+" AND account.acc_pass ="+textBox3.Text;
-            conn.Query(q);
-            CustomerProfile p = new CustomerProfile();
+            
+            if(textBox1.Text != "" && textBox2.Text != ""&& textBox3.Text != "")
+            {
+                DBconnection conn = new DBconnection();
+                string q = "select * from customer,hold_by,account where hold_by.ssn =" + textBox1.Text + " AND account.acc_number =" + textBox2.Text + " AND account.acc_pass =" + textBox3.Text;
+                bool found = conn.QuerySelect(q);
+                
+                if (found)
+                {
+                    CustomerProfile p = new CustomerProfile();
+                    p.Show();
+                    Visible = false;
+                    p.ssn = Convert.ToInt32(textBox1.Text);
+                }
+                else
+                {
+                    MessageBox.Show("credentials are not correct!");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("missing fields!");
+            }
 
 
 
@@ -46,6 +66,13 @@ namespace BankSystemProject
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            CustomerSignUP s = new CustomerSignUP();
+            s.Show();
+            Visible = false;
         }
     }
 }
