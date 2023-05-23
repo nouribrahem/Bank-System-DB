@@ -31,5 +31,12 @@ namespace BankSystemProject
         {
             
         }
+
+        private void LogOut_Click(object sender, EventArgs e)
+        {
+            Index index = new Index();
+            index.Show();
+            Visible = false;
+        }
     }
 }

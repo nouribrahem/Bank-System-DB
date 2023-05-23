@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBankPage));
-            this.id = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -62,30 +60,6 @@
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // id
-            // 
-            this.id.AutoSize = true;
-            this.id.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id.ForeColor = System.Drawing.Color.Black;
-            this.id.Location = new System.Drawing.Point(462, 74);
-            this.id.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
-            this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(49, 39);
-            this.id.TabIndex = 40;
-            this.id.Text = "ID:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(462, 29);
-            this.label3.Margin = new System.Windows.Forms.Padding(70, 20, 20, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 39);
-            this.label3.TabIndex = 39;
-            this.label3.Text = "Name:";
             // 
             // pictureBox2
             // 
@@ -316,8 +290,6 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.BankAddress);
             this.Controls.Add(this.BankName);
-            this.Controls.Add(this.id);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Name = "AddBankPage";
@@ -344,9 +316,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label id;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;

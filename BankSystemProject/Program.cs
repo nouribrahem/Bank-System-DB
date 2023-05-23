@@ -16,7 +16,7 @@ namespace BankSystemProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CustomerProfile());
+            Application.Run(new Index());
         }
     }
 }

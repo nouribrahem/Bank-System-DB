@@ -110,6 +110,12 @@
     <Compile Include="AdminProfile.Designer.cs">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer_Update_ details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Update_ details.Designer.cs">
+      <DependentUpon>Customer_Update_ details.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBconnection.cs" />
     <Compile Include="EmployeeAddCustomer.cs">
       <SubType>Form</SubType>
@@ -177,6 +183,12 @@
     <Compile Include="CustomerRequestALoan.Designer.cs">
       <DependentUpon>CustomerRequestALoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee_Update_ details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Update_ details.Designer.cs">
+      <DependentUpon>Employee_Update_ details.cs</DependentUpon>
+    </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +227,9 @@
     <EmbeddedResource Include="CustomerSignUP.resx">
       <DependentUpon>CustomerSignUP.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Update_ details.resx">
+      <DependentUpon>Customer_Update_ details.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeAddCustomer.resx">
       <DependentUpon>EmployeeAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +247,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeSignUP.resx">
       <DependentUpon>EmployeeSignUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Update_ details.resx">
+      <DependentUpon>Employee_Update_ details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
