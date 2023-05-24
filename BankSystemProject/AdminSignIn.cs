@@ -27,5 +27,17 @@ namespace BankSystemProject
             /*profile.Name = Q;*/
             Visible = false;
         }
+
+        private void AdminSignIn_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Index i = new Index();
+            i.Show();
+            Visible = false;
+        }
     }
 }

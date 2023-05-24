@@ -25,19 +25,26 @@ namespace BankSystemProject
         private void Form1_Load(object sender, EventArgs e)
         {
             DBconnection con = new DBconnection();
+            label1.Text += "    ";
             string query = "select cus_name from Customer where cus_ass = " + ssn.ToString() + " ;";
             label1.Text += con.show(query, "cus_name");
+            label2.Text += "    ";
             query = "select cus_ass from Customer where cus_ass = " + ssn.ToString() + " ;";
             label2.Text += con.show(query, "cus_ass");
+            label3.Text += "    ";
             query = "select cus_phone from Customer where cus_ass = " + ssn.ToString() + " ;";
             label3.Text += con.show(query, "cus_phone");
+            label4.Text += "    ";
             query = "select cus_address from Customer where cus_ass = " + ssn.ToString() + " ;";
             label4.Text += con.show(query, "cus_address");
+            label8.Text += "    ";
             query = "select account_number from hold_by where ssn = " + ssn.ToString() + " ;";
             string acc = con.show(query, "account_number");
             label8.Text += acc;
+            label10.Text += "    ";
             query = "select acc_type from Account where acc_number = " + acc + " ;";
             label10.Text += con.show(query, "acc_type");
+            label5.Text += "    ";
             query = "select acc_balance from Account where acc_number = " + acc + " ;";
             label5.Text += con.show(query, "acc_balance");
         }

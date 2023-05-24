@@ -40,10 +40,13 @@ namespace BankSystemProject
         private void EmployeeProfile_Load(object sender, EventArgs e)
         {
             DBconnection con = new DBconnection();
+            label1.Text += "    ";
             string query = "select emp_name from Eployee where emp_id = " + ID.ToString() + " ;";
             label1.Text += con.show(query, "emp_name");
+            label3.Text += "    ";
             query = "select emp_id from Eployee where emp_id = " + ID.ToString() + " ;";
             label3.Text += con.show(query, "emp_id");
+            label2.Text += "    ";
             query = "select branch_num from Eployee where emp_id = " + ID.ToString() + " ;";
             label2.Text += con.show(query, "branch_num");
            
@@ -57,6 +60,7 @@ namespace BankSystemProject
         private void AddCustomerpage_Click(object sender, EventArgs e)
         {
             EmployeeAddCustomer emp = new EmployeeAddCustomer();
+            emp.ID = ID;
             emp.Show();
             Visible = false;
         }

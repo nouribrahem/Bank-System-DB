@@ -21,7 +21,7 @@ namespace BankSystemProject
         {
 
         }
-        static long ssnIN;
+        
         private void Customersignin_signin_Click(object sender, EventArgs e)
         {
 
@@ -73,6 +73,13 @@ namespace BankSystemProject
             CustomerSignUP s = new CustomerSignUP();
            
             s.Show();
+            Visible = false;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Index i = new Index();
+            i.Show();
             Visible = false;
         }
     }

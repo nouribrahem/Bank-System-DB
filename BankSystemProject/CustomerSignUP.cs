@@ -62,5 +62,12 @@ namespace BankSystemProject
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            CustomerSignIn i = new CustomerSignIn();
+            i.Show();
+            Visible= false;
+        }
     }
 }

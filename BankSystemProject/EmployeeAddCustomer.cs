@@ -35,24 +35,18 @@ namespace BankSystemProject
             if (CustomerName.Text!="" && CustomerSSN.Text!="" && CustomerAddress.Text!="" && CustomerPhone.Text!="" && AccountNumber.Text!="" && AccountType.Text!="" && AccountBalance.Text!="")
             {
                 DBconnection con = new DBconnection();
-                string query = "insert into Customer ('" + CustomerName.Text + "'," + CustomerSSN.Text + ",'" + CustomerAddress.Text + "'," + CustomerPhone.Text + "')";
-                string q1 = "insert into Account (" + AccountNumber.Text +",'" + AccountType.Text +"'," + AccountBalance.Text+")";
-                string q2 = "insert into hold_by (" + CustomerSSN.Text + "," + AccountNumber.Text + ")";
-                string q3 = "insert into serve (" + CustomerSSN.Text + "," + ID.ToString() + ")";
+                string q = "select branch_num from eployee where emp_id = " + ID.ToString() + ";";
+                string branch = con.show(q, "branch_num");
+                string query = "insert into Customer(cus_name, cus_ass, cus_address, cus_phone, branch_num) values('" + CustomerName.Text + "'," + CustomerSSN.Text + ",'" + CustomerAddress.Text + "', " + CustomerPhone.Text + " , " + branch + " );";
+                string q1 = "insert into Account(acc_number, acc_type, acc_balance) values(" + AccountNumber.Text +",'" + AccountType.Text +"'," + AccountBalance.Text+");";
+                string q2 = "insert into hold_by values(" + CustomerSSN.Text + "," + AccountNumber.Text + ");";
+                string q3 = "insert into serve values(" + CustomerSSN.Text + "," + ID.ToString() + ");";
                 con.Query(query);
 
                 con.Query(q1);
                 con.Query(q2);
                 con.Query(q3);
                 MessageBox.Show("Cusomer added");
-                /*
-                EmployeeAddCustomer emp = new EmployeeAddCustomer();
-                emp.ID = ID;
-                emp.Show();
-                Visible = false;
-
-                */
-                   
                 
             }
 

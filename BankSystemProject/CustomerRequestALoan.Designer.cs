@@ -227,7 +227,7 @@
             "industry",
             "personal"});
             this.comboBox1.Location = new System.Drawing.Point(632, 393);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(403, 24);
             this.comboBox1.TabIndex = 34;
@@ -250,6 +250,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RequastLoan";
             this.Text = "Requast Loan";
+            this.Load += new System.EventHandler(this.RequastLoan_Load_1);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

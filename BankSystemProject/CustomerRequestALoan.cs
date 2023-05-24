@@ -35,8 +35,7 @@ namespace BankSystemProject
                 string queryAcc = "select account_number from hold_by where ssn = " + ssn.ToString() + ";";
                 string account = con.show(queryAcc, "account_number");
                 string query = "insert into loan(loan_type, loan_amount, loan_acc, loan_branch) values('" + comboBox1.Text + "' ," + textBox1.Text + " , " + account + ", " + branch + ");";
-                int n = con.Query(query);
-                MessageBox.Show(n.ToString());
+                con.Query(query);
                 MessageBox.Show("loan requested successfully!");
                 CustomerLoanPage loanPage = new CustomerLoanPage();
                 loanPage.ssn = ssn;
@@ -56,9 +55,6 @@ namespace BankSystemProject
 
         private void RequastLoan_Load(object sender, EventArgs e)
         {
-            //comboBox1.Items.Add("personal");
-            //comboBox1.Items.Add("industry");
-            //comboBox1.Items.Add("commercial");
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -81,16 +77,15 @@ namespace BankSystemProject
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            //StringBuilder sb = new StringBuilder();
-            //foreach (string name in comboBox1.Items)
-            //{
-            //    sb.Append(name);
-            //    sb.Append(" ");
-            //}
-            //MessageBox.Show(sb.ToString());
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RequastLoan_Load_1(object sender, EventArgs e)
         {
 
         }

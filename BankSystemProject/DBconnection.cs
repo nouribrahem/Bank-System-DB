@@ -35,13 +35,11 @@ namespace BankSystemProject
                 object obj = cmd.ExecuteScalar();
                 if (Convert.ToInt32(obj) > 0)
                 {
-                    MessageBox.Show(Convert.ToInt32(obj).ToString());
                     con.Close();
                     return true;
                 }
                 else
                 {
-                    MessageBox.Show(Convert.ToInt32(obj).ToString());
                     con.Close();
                     return false;
                 }
@@ -64,8 +62,8 @@ namespace BankSystemProject
                 cmd.Connection = con;
                 con.Open();
                 cmd.CommandText = query;
-                MySqlDataReader reader = cmd.ExecuteReader();
-                reader.Close();
+                //MySqlDataReader reader = cmd.ExecuteReader();
+                //reader.Close();
                 int found = cmd.ExecuteNonQuery();
                 con.Close();
                 return found;

@@ -179,9 +179,9 @@
             this.lsLoans.ForeColor = System.Drawing.Color.White;
             this.lsLoans.Location = new System.Drawing.Point(54, 15);
             this.lsLoans.Name = "lsLoans";
-            this.lsLoans.Size = new System.Drawing.Size(207, 56);
+            this.lsLoans.Size = new System.Drawing.Size(206, 56);
             this.lsLoans.TabIndex = 0;
-            this.lsLoans.Text = "LIst all Loans";
+            this.lsLoans.Text = "List all Loans";
             this.lsLoans.Click += new System.EventHandler(this.lsLoans_Click);
             // 
             // panel6

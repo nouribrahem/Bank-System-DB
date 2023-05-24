@@ -39,7 +39,6 @@ namespace BankSystemProject
                 string query = "select * from eployee where emp_id = " + textBox1.Text + " AND emp_pass = '" + textBox2.Text + "' ;";
                 bool found = con.QuerySelect(query);
                 ID = Convert.ToInt32(textBox1.Text);
-                MessageBox.Show(found.ToString());
                 if (found)
                 {
                     EmployeeProfile emp = new EmployeeProfile();
@@ -66,6 +65,13 @@ namespace BankSystemProject
             EmployeeSignUP employeesignup = new EmployeeSignUP();
             employeesignup.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Index i = new Index();
+            i.Show();
+            Visible = false;
         }
     }
 }
